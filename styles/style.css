@@ -1,0 +1,166 @@
+
+
+body {
+    
+    font-family: 'Play', sans-serif;
+    font-size: 22px;
+    color: white;
+    background-image: url("background.jpg");
+    background-size: auto; 
+}
+
+/* ------------------------------- Navigacioni bar -------------------------------------*/
+
+nav {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    font-size: 35px;
+   
+    
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(174, 189, 56, 0.8);
+    font-size: 30bpx;
+  }
+ 
+nav li {
+    float: left;
+  }
+
+ul {
+  display: flex;
+  justify-content: center;
+}
+nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+li {
+    margin-top: 20px;
+}
+  
+nav li a:hover {
+    background-color: rgba(128, 66, 25, 0.7);
+   
+  }
+
+
+  /* ------------------------------- Header -------------------------------------*/
+
+header h1 {
+    font-size: 80px;
+    padding: 10px;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+
+
+
+/* ------------------------------- Main container -------------------------------------*/
+
+main {
+    background-color: rgba(24, 161, 185, 0.7);
+    border-radius: 40px;
+    padding: 55px;
+    width: 1000px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+    text-align: center;
+} */
+
+h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    color:white;
+    padding: 2px;
+    text-align: center;
+    font-size: 20px;
+}
+
+img {
+    padding-right: 15px;
+    display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.notes {    
+    padding: 20px;
+    width: 200px;
+    height: auto;
+    float: right;
+    border-radius: 10%;
+    margin: 10px;
+    background-color: rgba(168, 125, 7, 0.7);
+    font-size: 15px;
+}
+
+section {
+    border-top: 2px solid white;
+    padding: 40px;
+}
+
+a {
+    color: white;
+}
+
+.prices {
+    font-style: italic;
+}
+
+/* ------------------------------- Footer -------------------------------------*/
+
+
+footer {
+    color: white;
+    text-align: center;
+    background-color: rgba(174, 189, 56, 0.8);
+    width: auto;
+    padding: 10px;
+    bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* Logo and social networks */
+
+
+#nomadiclogo {
+    position: fixed;
+    top: 0%;
+}
+
+#socmedia {
+    position: fixed;
+    top: 5px;
+    right: 5px;
+    display: inline;
+}
+
+.socmedia {
+    display: inline-block;
+    margin-top: 20px;
+}
